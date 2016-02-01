@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="#aaffaa"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:id="@+id/textViewA"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hello"
+            android:layout_above="@+id/buttonA"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="32dp"
+            android:textSize="30sp"
+            android:layout_gravity="center_horizontal" />
+
+        <Button
+            android:id="@+id/buttonA"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="change"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true" />
+
+        <Button
+            android:id="@+id/send_button"
+            android:text="秤量開始1g"
+            android:textSize="20sp"
+            android:layout_margin="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="92dp"
+            android:layout_gravity="center_horizontal" />
+
+        <TextView
+            android:text="Main Activity"
+            android:textSize="30sp"
+            android:layout_margin="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="68dp"
+            android:layout_gravity="center_horizontal" />
+    </LinearLayout>
+
+    <!--コメント-->
+
+</LinearLayout>
